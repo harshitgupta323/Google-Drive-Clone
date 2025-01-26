@@ -1,0 +1,50 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.14.2",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.1",
+    "dotenv": "^16.0.3",
+    "js-file-download": "^0.4.12",
+    "otp-input-react": "^0.3.0",
+    "react": "^16.11.0",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^16.11.0",
+    "react-otp-input": "^2.4.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.2.11",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "3.2.0",
+    "rxjs": "^7.5.7",
+    "stripe": "^10.15.0",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&set SSL_CRT_FILE={localhost.pem} &&set SSL_KEY_FILE={localhost-key.pem} &&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+  
+    "proxy": "https://192.168.54.5:3001/"
+  }
+}

@@ -1,0 +1,14 @@
+const express = require("express");
+const { upload } = require("../helpers/multerHelper");
+const { singleFileUpload } = require("../controllers/fileuploadController");
+const { fileShare } = require("../controllers/fileshareController");
+
+const router = express.Router();
+
+router.post("/uploadsinglefile", upload.single("file"), singleFileUpload);
+// router.post("/sharefile", fileShare);
+
+
+module.exports = {
+  routes: router,
+};

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Python37-32\python.exe" "D:\CloudProject\backend_new\backend_new\Test1.py"
